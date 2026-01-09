@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'File System',
-    short_name: 'File System',
-    description: 'Upload your files mate',
+    name: 'Unitrix',
+    short_name: 'Unitrix',
+    description: 'I don\'t know what to put here',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
