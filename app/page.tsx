@@ -7,7 +7,7 @@ const items = [
   },
   {
     title: 'Notes',
-    link: '/notes-system'
+    link: '/note-system'
   }
 ]
 

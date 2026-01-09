@@ -1,8 +1,8 @@
 import React from "react";
-import TextType from "@/components/TextType";
+import TextType from "./TextType";
 import { cn } from "@/lib/utils";
 import { bebasNeue } from "@/types/fonts";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { ThemeToggle } from "./theme-toggle";
 import Link from "next/link";
 
 const NavBar = () => {
