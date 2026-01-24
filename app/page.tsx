@@ -1,18 +1,18 @@
 import NavBar from "@/components/nav-bar";
 
 const items = [
+  // {
+  //   title: 'Files',
+  //   link: '/file-system'
+  // },
   {
-    title: 'Files',
-    link: '/file-system'
+    title: 'Drive',
+    link: '/drive'
   },
   {
     title: 'Notes',
     link: '/note-system'
   },
-  {
-    title: 'Drive',
-    link: '/drive'
-  }
 ]
 
 export default function Home() {
