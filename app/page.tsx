@@ -8,6 +8,10 @@ const items = [
   {
     title: 'Notes',
     link: '/note-system'
+  },
+  {
+    title: 'Drive',
+    link: '/drive'
   }
 ]
 
