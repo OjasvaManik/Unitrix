@@ -13,6 +13,10 @@ const items = [
     title: 'Notes',
     link: '/note-system'
   },
+  {
+    title: 'Terminal',
+    link: '/terminal'
+  },
 ]
 
 export default function Home() {
