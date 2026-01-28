@@ -4,6 +4,7 @@ import React from "react";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "sonner";
 import { righteous } from "@/types/fonts";
+import NavBar from "@/components/nav-bar";
 
 export const metadata: Metadata = {
   title: "Unitrix",
@@ -30,6 +31,7 @@ export default function RootLayout( {
       enableSystem
       disableTransitionOnChange
     >
+      <NavBar/>
       { children }
       <Toaster position="bottom-right"/>
     </ThemeProvider>

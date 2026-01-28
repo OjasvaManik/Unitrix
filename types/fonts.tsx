@@ -1,4 +1,4 @@
-import { Ballet, Bebas_Neue, JetBrains_Mono, Righteous } from "next/font/google";
+import { Ballet, Bebas_Neue, Bytesized, JetBrains_Mono, Righteous } from "next/font/google";
 
 export const bebasNeue = Bebas_Neue( {
   subsets: [ 'latin' ],
@@ -19,6 +19,12 @@ export const ballet = Ballet( {
 } );
 
 export const righteous = Righteous( {
+  subsets: [ "latin" ],
+  weight: "400",
+  variable: "--font-righteous",
+} );
+
+export const bytesized = Bytesized( {
   subsets: [ "latin" ],
   weight: "400",
   variable: "--font-righteous",
